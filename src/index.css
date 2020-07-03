@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  font-family:  Microsoft jhengHei,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 40px 40px;
+  margin: 0px;
+  font-size: 13px;
+  background-image: url('./assets/workImg.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Reusable class */
+.col-50{
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.content-box-red{
+  background-color: #CC0000;
+  padding: 20px;
+  border-radius: 5px;
+}
+.content-box-light{
+  background-color: #F2F2F2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* TEXT HEADINGS */
+h1{ font-size: 48px;}
+h2{ font-size: 32px;}
+h3{ font-size: 18px;}
+
+/* BUTTON */
+.btn{
+  border: 0px;
+  border-radius: 3px;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.btn:focus,
+.btn:visited,
+.btn:active{
+  outline: none;
+  border: none;
+}
+
+
+.btn-default{
+  background-color: #CC9900;
+  border-color: #775900;
+  color: #FFFFFF;
+}
+
+.btn-primary{
+  background-color: #169BD5;
+  color: #FFFFFF;
+}
+
+/* Helper Classes */
+.brandColor{ color: #CC0000; }
+
+.float-left{ float: left; }
+
+.float-right{ float: right; }
+
+.clearFix{ clear: both; }
+
+/* Logo */
+.logo{
+  box-sizing: border-box;
+  width: 300px;
+  background-color: #CC0000;
+  color: #FFFFFF;
+  padding: 20px 30px;
+  font-size: 38px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.logo p{
+  font-size: 15px;
+  display: block;
+}
+
+/* NAVIGATION */
+nav li a{
+  font-weight: bold;
+  font-size: 28px;
+  color: #CC0000;
+}
+
+nav li a.active{
+  font-weight: bold;
+  font-size: 28px;
+  color: #666666;
+}
+
+/* SIDEBAR */
+.sidebar{
+  width: 300px;
+  height: 500px;
+  background-color: #f2f2f2;
+  float: left;
+}
+
+.sidebar ul{ 
+  list-style: none;
+  margin: 0px;
+  padding: 30px 0px;
+}
+
+.sidebar ul li{
+  margin: 0px 30px;
+}
+
+.sidebar ul li a{
+  display: block;
+  padding: 20px 0px;
+  text-decoration: none;
+  border-bottom: 2px solid #777777;
+}
+
+.sidebar ul li:nth-child(3) a{
+  border-bottom: none !important;
+}
+
+/* LOGIN */
+.login-section{
+  width: 715px;
+  background-color: #CC0000;
+  color: #FFFFFF;
+  padding: 30px 30px;
+}
+
+/* Main Content Area */
+.content{
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  box-sizing: border-box;
+  background-color: #F2F2F2;
+  padding: 10px 20px;
+  margin: 0px 15px;
+  margin-left: 315px;
+  float: none;
+}
+
+/* DASHBOARD */
+.userDetails img{
+  float: left;
+  margin-right: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.userName{
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.userLastLogin{
+  margin-top: 10px;
+  color: #777777;
+}
+
+.submitButton{
+  background-color: #169BD5;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Team */
+.teamList{
+  list-style: none;
+  padding: 20px;
+  margin: 10px;
+}
+.teamList li{ 
+  display: block;
+   clear: both;
+   padding: 15px;
+   margin: 5px;
+   font-size: 1rem;
+}
+
+.teamIco, .teamName{ float: left;}
+
+.teamIco{
+  margin-right: 20px;
+}
+
+.teamIco img{ border-radius: 50px;}
+
+/* FORM */
+label{
+  min-width : 100px;
+  display: inline-block;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+
+input{
+  font-size: 13px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+.errorLogin{
+  background-color: rgba(255,255,255,0.2);
+  padding: 10px 10px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+/* TABLE */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th{
+  background-color: #dddddd;
+}
